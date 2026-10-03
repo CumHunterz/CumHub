@@ -1,0 +1,28 @@
+.data/
+node_modules/
+.DS_Store
+artifacts/
+*.log
+
+# Local project imports contain machine-specific paths and settings.
+/hub-import.json
+
+# Local configuration and credentials must never be published.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+id_rsa*
+id_ed25519*
+credentials.json
+secrets.json
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+.idea/
+.vscode/

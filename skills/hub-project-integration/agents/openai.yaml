@@ -1,0 +1,7 @@
+interface:
+  display_name: "CumHub 项目适配"
+  short_description: "生成可批量导入 CumHub 的项目配置，优先设置项目主控制面板"
+  default_prompt: "使用 $hub-project-integration，生成并校验 CumHub 导入文件，优先设置项目主控制面板入口。"
+
+policy:
+  allow_implicit_invocation: true

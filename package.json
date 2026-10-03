@@ -1,0 +1,14 @@
+{
+  "name": "cumhub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local project launchers, web shortcuts, and background task management.",
+  "type": "module",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "start": "node scripts/launch.mjs",
+    "serve": "node server/main.mjs",
+    "stop": "node scripts/launch.mjs --stop",
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs"
+  }
+}
